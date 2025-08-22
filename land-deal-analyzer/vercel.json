@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/webhook/analyze",
+      "dest": "/api/analyze-deal"
+    },
+    {
+      "src": "/health",
+      "dest": "/api/health"
+    }
+  ]
+}
